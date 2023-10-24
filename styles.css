@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+h1,h2,h3{
+    font-family: 'Montaga', serif;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+nav{
+    font-family: 'Mooli', sans-serif;
+}
+.intro-text{
+    font-weight: 350px;
+    font-family: 'Mooli', sans-serif;
+}
+.about-text{
+    line-height: 1.5;
+    font-size: 16px;
+}
+p{
+    font-family: 'Mooli', sans-serif;
+    text-align: center
+}
+.ld2{
+    color: #d7a5a5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn1:hover a{
+    color:  #000;
+    transition: .3s;
+    line-height: 1.1;
+}
+#header{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)),url(https://ca.slack-edge.com/T05LKQ0F95E-U05NCCAFQ2U-d0e689e6f920-512);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #eee0e0;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 34px;
+    margin-right: 10px;
+    background:#d7a5a5;
+    color: #fff;
+    border: 3px solid #d7a5a5;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: all 0.6s ease-in-out;
+}
+.btn:hover{
+    transform: translateY(-5px);
+    background: #000;
+    border: 3px solid #d7a5a5;
+    color: #d7a5a5;
+}
+.two{
+    background: #141414;
+    border: 2px solid #141414;
+    color: #d7a5a5;
+}
+.two:hover{
+    color: #141414;
+    background:#d7a5a5;
+    border: 2px solid #fff;
+}
